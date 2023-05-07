@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap');
+* { box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(./images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 1690px;
+}
+
+
+
+
+
+img {
+    float: right;
+    height: 100%;
+    width: 610px;
+                 
+}
+
+
+
+.logo {
+    margin-top: -4rem;
+    
+    float: left;
+    width: 160px;
+    height: 100%;
+}
+
+
+h1 {
+   margin-top: 6rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1rem;
+    color: rgb(207, 136, 136);
+    font-size: 4rem;
+}
+
+
+span {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+
+}
+
+p {
+   margin-right: 14rem;
+    color: rgb(207, 136, 136);
+    font-size: 1rem;
+    width: 430px;
+    margin-top: 2rem;
+    text-align: start;
+    line-height: 1.6em;
+}
+
+.inputfield {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+input {
+    background-color: #c7c7c700;
+    margin-top: 4rem;
+    width: 400px;
+    height: 60px;
+    border-radius: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(207, 136, 136);
+    border: none;
+    border: 1px solid rgb(207, 136, 136);
+    padding: 20px;
+    font-size: 1rem;
+}
+
+button {
+    margin-top: 4rem;
+    margin-right: 13rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(135deg, #e0c7c7, #d88e8e);
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+    margin-left: 3rem;
+}
+
+
+button:hover {
+    background: linear-gradient(135deg, #f1e4e4, #dba4a4);
+    cursor: pointer;
+    filter: drop-shadow(5px 20px 10px #c7c7c7);
+}
+
+
+.foot {
+   margin-top: 45rem;
+    margin-right: 42rem;
+    color: black;
+    width: 600px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    position: absolute;   
+}
+
+.foot a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(45, 255, 18);
+}
